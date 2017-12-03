@@ -63,7 +63,8 @@ _예제 문서 **https://pilgwon.github.io/blog/2017/09/26/RxSwift-By-Examples-1
 1. `pod install`
 1. `ViewController.swift`에 아웃렛 추가
 1. `Main.storyboard`에 테이블 뷰와 서치 바 추가
-1. `Main.storyboard`에서 아웃렛, 테이블 뷰 데이터소스 연결
+1. `Main.storyboard`에서 아웃렛, 테이블 뷰 데이터소스 연결, 테이블 뷰 셀 아이덴티피어 지정
+1. 모듈 임포트
 1. 데이터 변수 + `DisposeBag` 선언
 1.  `UITableViewDataSource` 구현
 1. 서치 바 텍스트 구독
