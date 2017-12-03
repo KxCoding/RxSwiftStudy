@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Event'/>
+        <page name='create'/>
+        <page name='generate'/>
+        <page name='deferred'/>
+        <page name='empty'/>
+        <page name='never'/>
+        <page name='error'/>
+        <page name='from'/>
+        <page name='of'/>
+        <page name='interval'/>
+        <page name='just'/>
+        <page name='range'/>
+        <page name='repeatElement'/>
+        <page name='startWith'/>
+        <page name='timer'/>
+    </pages>
+</playground>
