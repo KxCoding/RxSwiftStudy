@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ApiSample' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ApiSample
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxAlamofire'
+  pod 'NSObject+Rx'
+  pod 'SwiftyJSON'
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  pod 'Moya-ObjectMapper/RxSwift'
+end
