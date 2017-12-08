@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='ignoreElements'/>
+        <page name='elementAt'/>
+        <page name='filter'/>
+        <page name='skip'/>
+        <page name='skipWhile'/>
+        <page name='skipUntil'/>
+        <page name='take'/>
+        <page name='takeWhile'/>
+        <page name='takeUntil'/>
+        <page name='distinctUntilChanged'/>
+        <page name='take_scheduler'/>
+        <page name='throttle_scheduler'/>
+        <page name='single'/>
+        <page name='exercise'/>
+    </pages>
+</playground>
