@@ -46,7 +46,7 @@ subject.onNext(4)
 ```
 
 #### PublishSubject lifeCycle
-모든 `PublishSubject`들은 `.completed` or `.error` (`stop event`)를 수신받을 경우, 현재 구독하고 있는 모든 구독자에게 `stop event`를 방출하고 종료된다(더 이상 `.next` event를 발행 수 없다는 의미). 그 이후에 `새로운 구독자`가 있을 경우  `새로운 구독자`에게 `stop event`를 방출한다.
+`PublishSubject`는 `.completed` or `.error` (`stop event`)를 수신받을 경우, 현재 구독하고 있는 모든 구독자에게 `stop event`를 방출하고 종료된다(더 이상 `.next` event를 발행 수 없다는 의미). 그 이후에 `새로운 구독자`가 있을 경우  `새로운 구독자`에게 `stop event`를 방출한다.
 
 ```swift
 let subject = PublishSubject<Int>()
