@@ -7,6 +7,9 @@ import RxSwift
  
  - predicate 조건이 false가 나올때까지 계속 skip하고 만약 false가 되어 통과하면 그 이후로는 skip하지 않는다.
  
+ 
+ ![skipWhile](skipWhile.png)
+ 
  */
 
 example("skipWhile") {

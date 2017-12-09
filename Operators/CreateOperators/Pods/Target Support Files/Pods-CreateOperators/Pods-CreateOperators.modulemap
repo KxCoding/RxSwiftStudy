@@ -1,0 +1,6 @@
+framework module Pods_CreateOperators {
+  umbrella header "Pods-CreateOperators-umbrella.h"
+
+  export *
+  module * { export * }
+}

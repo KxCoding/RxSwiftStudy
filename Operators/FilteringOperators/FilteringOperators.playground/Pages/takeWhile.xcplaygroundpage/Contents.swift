@@ -7,6 +7,8 @@ import RxSwift
  
  - predicate 조건이 false가 나올때까지 계속 통과시키고 만약 false가 되어 skip하면 그 이후로는 통과하지 않는다.
  
+ ![takeWhile](takeWhile.png)
+ 
  */
 
 example("takeWhile") {

@@ -8,6 +8,9 @@ import RxSwift
  - ignoreElements는 .next 이벤트를 차단한다. 하지만 stop 이벤트인 .complted 또는 .error 이벤트는 받는다.
  - completed 되는 시점만 알림받고 싶을 때 유용하다.
  
+ 
+ ![ignoreElements](ignoreElements.png)
+ 
  */
 
 example("ignoreElements") {

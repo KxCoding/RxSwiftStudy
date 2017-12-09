@@ -7,6 +7,8 @@ import RxSwift
  
  - skipUntil 은 trigger subject가 .next 이벤트를 emit할 때까지 계속 skip한다.
  
+ ![skipUntil](skipUntil.png)
+ 
  */
 
 example("skipUntil") {

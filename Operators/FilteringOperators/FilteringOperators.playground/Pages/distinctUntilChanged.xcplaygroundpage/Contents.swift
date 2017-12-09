@@ -7,7 +7,10 @@ import RxSwift
  
  - distinctUntilChanged 연산자는 연속적인 중복을 막는다
  
+ ![distinctUntilChanged](distinctUntilChanged.png)
+ 
  */
+
 // Equatable
 example("distinctUntilChanged") {
   

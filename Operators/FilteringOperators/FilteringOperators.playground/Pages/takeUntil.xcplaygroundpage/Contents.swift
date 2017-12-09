@@ -9,6 +9,8 @@ import RxCocoa
 - takeUntil 연산자도 skipUntil 연산자와 비슷하다. triggerSubject가 .next 이벤트를 emit 할 때까지 계속 이벤트를 통과하고 trigger가 next 이벤트를 emit 하면 더이상 통과시키지 않는다
 - disposeBag 사용 없이 구독을 해제하고 싶을 때 사용할수 있다
  
+ ![takeUntil](takeUntil.png)
+ 
  */
 
 example("takeUntil") {
