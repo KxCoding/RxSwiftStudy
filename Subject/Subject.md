@@ -215,7 +215,7 @@ let subscription3 = subject.subscribe { event in
 ### Variable
 `BehaviorSubject`의 `랩퍼 클래스`이고이며, 현재 값을 `value`변수에 저장하며, 저장된 값을 `구독자`에게 보낸다. 즉, `value`변수에 값을 설정하면 자동으로 `onNext(_:)` 가 호출된다. 그리고 `Variable`는 `Error` event를 내보내지 않습니다.
 
-```swfit
+```swift
 let disposeBag = DisposeBag()
 
 let variable = Variable<Int>(1)
