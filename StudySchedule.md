@@ -1,8 +1,8 @@
-#RxSwift Study Schedule
+# RxSwift Study Schedule
 
 #### <i class="icon-calendar"></i> 2017.12.02
 | Subject                        | Leader              |
-| ------------------
+| ---------------------------- | ------------------
 | Setup, Observable, Observer            | 박정연 |
 | Create Operators            | 이로운 |
 | Subscribe, Dispose Bag, Marble Diagram | 이한형 |
