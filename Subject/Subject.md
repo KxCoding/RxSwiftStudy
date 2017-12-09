@@ -4,6 +4,8 @@
 
 ![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/subject.png)
 
+![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/subject2.png)
+
 ## Subject 종류
 * PublishSubject
 * BehaviorSubject
