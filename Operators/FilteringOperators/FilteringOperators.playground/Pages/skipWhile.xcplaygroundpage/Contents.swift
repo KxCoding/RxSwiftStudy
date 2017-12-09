@@ -7,6 +7,9 @@ import RxSwift
  
  - predicate 조건이 false가 나올때까지 계속 skip하고 만약 false가 되어 통과하면 그 이후로는 skip하지 않는다.
  
+ 
+ ![skipWhile](skipWhile.png)
+ 
  */
 
 example("skipWhile") {
@@ -31,7 +34,8 @@ example("skipWhile") {
  
  # skipWhileWithIndex
  
- - skipWhileWithIndex 연산자는 predicate를 만족하지 않는 값이 나올 때까지 계속 skip. skipWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
+ - skipWhileWithIndex 연산자는 predicate를 만족하지 않는 값이 나올 때까지 계속 skip.
+ - skipWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
  
  */
 

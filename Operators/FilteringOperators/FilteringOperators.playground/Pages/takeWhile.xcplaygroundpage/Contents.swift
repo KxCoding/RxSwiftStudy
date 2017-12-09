@@ -7,6 +7,8 @@ import RxSwift
  
  - predicate 조건이 false가 나올때까지 계속 통과시키고 만약 false가 되어 skip하면 그 이후로는 통과하지 않는다.
  
+ ![takeWhile](takeWhile.png)
+ 
  */
 
 example("takeWhile") {
@@ -22,7 +24,8 @@ example("takeWhile") {
  
  # takeWhileWithIndex
  
- - takeWhile과 비슷하다.  predicate를 만족하지 않는 값이 나올 때까지 계속 통과. takeWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
+ - takeWhile과 비슷하다.  predicate를 만족하지 않는 값이 나올 때까지 계속 통과.
+ - takeWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
  
  */
 

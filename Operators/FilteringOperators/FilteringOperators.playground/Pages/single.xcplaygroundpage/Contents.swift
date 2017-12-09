@@ -7,6 +7,8 @@ import RxSwift
  
  - 조건을 만족하는 첫번째 원소만 통과. 조건을 만족하는 것이 1개를 초과하는 순간 에러이벤트 발생
  
+ ![single](single.png)
+ 
  */
 
 example("single") {

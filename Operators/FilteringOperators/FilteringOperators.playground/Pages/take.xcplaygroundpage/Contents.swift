@@ -7,6 +7,8 @@ import RxSwift
  
  - take 연산자는 스킵과 반대이다. 즉 앞에서부터 몇개의 원소를 통과시킬 것인지 결정한다
  
+ ![take](take.png)
+ 
  */
 
 example("take") {
