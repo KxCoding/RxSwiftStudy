@@ -2,7 +2,7 @@
 `Observer`와 `Observable` 두 역활을 수행하는 `프록시` 입니다.
 `Observer`의 역활로, 새로운 특정 `event`를 수신합니다. `Observable`의 역활로는 `event`들을 내보낼 수 있습니다.
 
-![Alt text](![Alt text](https://github.com/KxCoding/RxSwiftStudy/tree/master/Subject/images/subject.png)
+![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/subject.png)
 
 ## Subject 종류
 * PublishSubject
@@ -13,7 +13,7 @@
 ### PublishSubject
 `새로운 값`을 수신받으면 현재 자신을 구독중인 `구독자`들에게 `새로운 값`을 *그대로 내보냅니다*.
 
-![Alt text](![Alt text](https://github.com/KxCoding/RxSwiftStudy/tree/master/Subject/images/publishSubject.png))
+![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/publishSubject.png)
 
 ```swift
 let subject = PublishSubject<Int>()
@@ -92,7 +92,7 @@ let subscription3 = subject.subscribe { event in
 ### BehaviorSubject
 `PublishSubject`와 비슷하지만, `초기 값`을 가지고 시작하며, `최신 값`을 `새로운 구독자`에게 *재생합니다*.
 
-![Alt text](![Alt text](https://github.com/KxCoding/RxSwiftStudy/tree/master/Subject/images/behaviorSubject.png))
+![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/behaviorSubject.png)
 
 ```swift
 
@@ -146,7 +146,7 @@ let subscription3 = subject.subscribe { event in
 ### ReplaySubject
 `BehaviorSubject`와 비슷하지만, 지정된 `버퍼 사이즈`로 초기화되며, 지정된 사이즈까지 버퍼를 유지하고 `새로운 구독자`에게 버퍼에 있는 값을 *재생합니다*.
 
-![Alt text](![Alt text](https://github.com/KxCoding/RxSwiftStudy/tree/master/Subject/images/replaySubject.png))
+![Alt text](https://github.com/KxCoding/RxSwiftStudy/blob/master/Subject/images/replaySubject.png)
 
 ```swift
 let disposeBag = DisposeBag()
@@ -215,7 +215,7 @@ let subscription3 = subject.subscribe { event in
 ### Variable
 `BehaviorSubject`의 `랩퍼 클래스`이고이며, 현재 값을 `value`변수에 저장하며, 저장된 값을 `구독자`에게 보낸다. 즉, `value`변수에 값을 설정하면 자동으로 `onNext(_:)` 가 호출된다. 그리고 `Variable`는 `Error` event를 내보내지 않습니다.
 
-```swfit
+```swift
 let disposeBag = DisposeBag()
 
 let variable = Variable<Int>(1)
