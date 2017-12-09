@@ -15,6 +15,10 @@ import RxSwift
 
 example("ignoreElements") {
   
+  enum TestError: Error {
+    case test
+  }
+  
   let subject = PublishSubject<String>()
   
   let disposeBag = DisposeBag()
@@ -32,6 +36,7 @@ example("ignoreElements") {
   //위의 코드를 호출해도 아무것도 출력되지 않는다. 왜냐하면 .next 이벤트는 무시되기 때문이다.
   
 //  subject.onCompleted()
+//  subject.onError(TestError.test)
   
   //이제 구독자는 .completed 이벤트를 받고 출력을 한다
 

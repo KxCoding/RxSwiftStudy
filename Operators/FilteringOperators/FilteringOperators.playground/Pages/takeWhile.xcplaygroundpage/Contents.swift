@@ -24,7 +24,8 @@ example("takeWhile") {
  
  # takeWhileWithIndex
  
- - takeWhile과 비슷하다.  predicate를 만족하지 않는 값이 나올 때까지 계속 통과. takeWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
+ - takeWhile과 비슷하다.  predicate를 만족하지 않는 값이 나올 때까지 계속 통과.
+ - takeWhileWithIndex 는 predicate에 index값을 사용할 수 있다.
  
  */
 
