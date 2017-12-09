@@ -1,6 +1,0 @@
-framework module UIBaseKit {
-  umbrella header "UIBaseKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
