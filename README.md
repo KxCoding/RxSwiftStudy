@@ -13,6 +13,7 @@
 **https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CreateOperators/CreateOperators.md**
 
 ## Filtering Operator (작성자:박준우, 송회문, 날짜: 2017.12.09)
+**https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/FilteringOperators/FilteringOperators.md**
 
 ## Transformation Operators (작성자: 정상엽, 김민희, 날짜: 2017.12.16)
 
