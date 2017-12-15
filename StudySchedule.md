@@ -23,7 +23,7 @@
 | Transformation Operators     | 정상엽 |
 | Transformation Operators       | 김민희 |
 | Combine Operators | 강수영 |
-| RxAlamofire, ObjectMapper | 김근영 |
+| Action | 김근영 |
 
 #### <i class="icon-calendar"></i> 2017.12.23
 nil
