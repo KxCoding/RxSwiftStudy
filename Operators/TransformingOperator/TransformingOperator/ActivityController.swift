@@ -32,15 +32,6 @@ class ActivityController: UITableViewController {
         refresh()
     }
     
-    @objc func refresh() {
-        fetchEvents(repo: repo)
-    }
-    
-    func fetchEvents(repo: String) {
-        
-    }
-    
-    // MARK: - Table Data Source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return events.value.count
     }
@@ -54,5 +45,18 @@ class ActivityController: UITableViewController {
         cell.imageView?.kf.setImage(with: event.imageUrl, placeholder: UIImage(named: "blank-avatar"))
         return cell
     }
+    
 }
 
+extension ActivityController {
+    
+    @objc func refresh() {
+        fetchEvents(repo: repo)
+    }
+    
+    func fetchEvents(repo: String) {
+    }
+    
+    func processEvents(_ newEvents: [Event]) {
+    }
+}
