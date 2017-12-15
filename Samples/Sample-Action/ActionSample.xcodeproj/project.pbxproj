@@ -29,6 +29,8 @@
 		AA0CF1AC1FE3FAC800E10907 /* CocoaAction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CocoaAction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA0CF1AD1FE3FAD400E10907 /* ButtonWithActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithActionViewController.swift; sourceTree = "<group>"; };
 		AA0CF1AF1FE3FEA300E10907 /* BindToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindToViewController.swift; sourceTree = "<group>"; };
+		AA5CCC4E1FE41AA1002FB07F /* Basic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Basic.md; sourceTree = "<group>"; };
+		AA5CCC4F1FE41DDD002FB07F /* CocoaAction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CocoaAction.md; sourceTree = "<group>"; };
 		C386EF9DFB490435E0C788CD /* Pods_ActionSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0CF1AB1FE3FAB100E10907 /* Basic.playground */,
+				AA5CCC4E1FE41AA1002FB07F /* Basic.md */,
 			);
 			path = "1 - Basic";
 			sourceTree = "<group>";
@@ -97,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0CF1AC1FE3FAC800E10907 /* CocoaAction.playground */,
+				AA5CCC4F1FE41DDD002FB07F /* CocoaAction.md */,
 				AA0CF1AD1FE3FAD400E10907 /* ButtonWithActionViewController.swift */,
 				AA0CF1AF1FE3FEA300E10907 /* BindToViewController.swift */,
 			);

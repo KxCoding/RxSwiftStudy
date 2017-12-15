@@ -1,5 +1,5 @@
 /*:
- ## Cocoa Action
+ # Cocoa Action
  
  UIButton 과 함께 사용할 수 있는 Action
  

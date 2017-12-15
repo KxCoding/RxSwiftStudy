@@ -1,4 +1,3 @@
-/*:
  # Action
  
  RxSwift를 통해 Action을 추상화 하는 도구
@@ -15,32 +14,24 @@
  - 동시 실행이 불가능하다. 하나의 Action은 한 번에 하나의 작업만 실행할 수 있다
  - 개별 작업에서 발생하는 next 이벤트와 error 이벤트를 결합
  
- */
-
-import UIKit
-import RxSwift
-import Action
-
+<pre><code>
 var action: Action<String, Int> = Action { (input) -> Observable<Int> in
     return Observable.create({ observer -> Disposable in
         observer.onNext(input.count)
         observer.onCompleted()
-        
+
         return Disposables.create()
     })
 }
 
-
 action.execute("Hello Action").subscribe { print($0) }
+</code></pre>
 
-print("----------------------------------------")
+### Conditional Action
 
+enabledIf 를 활용하면 workFactory로 전달한 Action의 실제 실행을 제어할 수 있다
 
-/*:
- ### Conditional Action
- 
- enabledIf 를 활용하면 workFactory로 전달한 Action의 실제 실행을 제어할 수 있다
- */
+<pre><code>
 var source: String? = "Hello"
 
 let condition = PublishSubject<Bool>()
@@ -49,7 +40,7 @@ action = Action(enabledIf: condition.asObservable(), workFactory: { (input) -> O
     return Observable.create({ observer -> Disposable in
         observer.onNext(input.count)
         observer.onCompleted()
-        
+
         return Disposables.create()
     })
 })
@@ -59,4 +50,4 @@ if let _ = source {
 }
 
 action.execute(source ?? "").subscribe { print($0) }
-
+</code></pre>
