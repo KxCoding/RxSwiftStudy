@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7C5F2A1FE3A9C100CE6D9C /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C5F291FE3A9C100CE6D9C /* ActivityController.swift */; };
+		3A7C5F2C1FE3AA1200CE6D9C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C5F2B1FE3AA1200CE6D9C /* Event.swift */; };
 		7A9BE7C0016ACA02BF6A71CC /* Pods_TransformingOperator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC765B863672C176FBD7D9A /* Pods_TransformingOperator.framework */; };
 		DE089A211FE0D10B007BC47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE089A201FE0D10B007BC47B /* AppDelegate.swift */; };
 		DE089A231FE0D10B007BC47B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE089A221FE0D10B007BC47B /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A7C5F291FE3A9C100CE6D9C /* ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		3A7C5F2B1FE3AA1200CE6D9C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		ACC765B863672C176FBD7D9A /* Pods_TransformingOperator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransformingOperator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA850E3D7B93C1E3C025C162 /* Pods-TransformingOperator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransformingOperator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransformingOperator/Pods-TransformingOperator.release.xcconfig"; sourceTree = "<group>"; };
 		DE089A1D1FE0D10B007BC47B /* TransformingOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformingOperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +88,8 @@
 				DE089A271FE0D10B007BC47B /* Assets.xcassets */,
 				DE089A291FE0D10B007BC47B /* LaunchScreen.storyboard */,
 				DE089A2C1FE0D10B007BC47B /* Info.plist */,
+				3A7C5F291FE3A9C100CE6D9C /* ActivityController.swift */,
+				3A7C5F2B1FE3AA1200CE6D9C /* Event.swift */,
 			);
 			path = TransformingOperator;
 			sourceTree = "<group>";
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7C5F2C1FE3AA1200CE6D9C /* Event.swift in Sources */,
 				DE089A231FE0D10B007BC47B /* ViewController.swift in Sources */,
+				3A7C5F2A1FE3A9C100CE6D9C /* ActivityController.swift in Sources */,
 				DE089A211FE0D10B007BC47B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
