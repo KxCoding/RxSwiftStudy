@@ -6,5 +6,6 @@ target 'TransformingOperator' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
+  pod 'Kingfisher'
 end
 
