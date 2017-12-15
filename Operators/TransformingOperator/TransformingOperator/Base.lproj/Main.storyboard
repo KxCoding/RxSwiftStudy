@@ -17,14 +17,90 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EvE-CQ-qWt" userLabel="buffer example1 switch">
+                                <rect key="frame" x="24" y="84" width="51" height="31"/>
+                                <connections>
+                                    <action selector="didChangeSwitchState:" destination="BYZ-38-t0r" eventType="valueChanged" id="dbg-fm-QMh"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jtv-gJ-3e1" userLabel="buffer example2 switch">
+                                <rect key="frame" x="24" y="147" width="51" height="31"/>
+                                <connections>
+                                    <action selector="didChangeSwitchState:" destination="BYZ-38-t0r" eventType="valueChanged" id="ynY-Dv-Yxq"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-WN-NpN" userLabel="window example switch">
+                                <rect key="frame" x="24" y="210" width="51" height="31"/>
+                                <connections>
+                                    <action selector="didChangeSwitchState:" destination="BYZ-38-t0r" eventType="valueChanged" id="bSq-g1-NsM"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="buffer example 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bp0-XC-coh" userLabel="buffer example1 label">
+                                <rect key="frame" x="89" y="89" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="buffer example 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qT1-sL-YsQ" userLabel="buffer example2 label">
+                                <rect key="frame" x="89" y="152" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="window example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsB-ed-gxS">
+                                <rect key="frame" x="89" y="215.5" width="286" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yp-Fb-j47">
+                                <rect key="frame" x="137" y="522" width="100" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="7k9-sh-KCn"/>
+                                    <constraint firstAttribute="width" constant="100" id="yUj-Tq-skW"/>
+                                </constraints>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgC-1b-XdK"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9yp-Fb-j47" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7zx-de-iye"/>
+                            <constraint firstItem="Bp0-XC-coh" firstAttribute="centerY" secondItem="EvE-CQ-qWt" secondAttribute="centerY" id="CZr-Iy-gKY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hsB-ed-gxS" secondAttribute="trailing" id="IQC-BC-Pd9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qT1-sL-YsQ" secondAttribute="trailing" id="OdF-6C-PSQ"/>
+                            <constraint firstItem="qT1-sL-YsQ" firstAttribute="leading" secondItem="jtv-gJ-3e1" secondAttribute="trailing" constant="16" id="QEA-Wz-YRG"/>
+                            <constraint firstItem="EvE-CQ-qWt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="SaK-nG-jC8"/>
+                            <constraint firstItem="hsB-ed-gxS" firstAttribute="leading" secondItem="6dl-WN-NpN" secondAttribute="trailing" constant="16" id="d08-i1-OJe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bp0-XC-coh" secondAttribute="trailing" id="eiZ-BU-Jer"/>
+                            <constraint firstItem="hsB-ed-gxS" firstAttribute="centerY" secondItem="6dl-WN-NpN" secondAttribute="centerY" id="f5Y-ct-28K"/>
+                            <constraint firstItem="6dl-WN-NpN" firstAttribute="top" secondItem="jtv-gJ-3e1" secondAttribute="bottom" constant="32" id="jZl-JQ-Apc"/>
+                            <constraint firstItem="jtv-gJ-3e1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="qYM-ot-X6k"/>
+                            <constraint firstItem="jtv-gJ-3e1" firstAttribute="top" secondItem="EvE-CQ-qWt" secondAttribute="bottom" constant="32" id="stt-ML-PrR"/>
+                            <constraint firstItem="6dl-WN-NpN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="t70-Lm-UOE"/>
+                            <constraint firstItem="Bp0-XC-coh" firstAttribute="leading" secondItem="EvE-CQ-qWt" secondAttribute="trailing" constant="16" id="vJ4-PC-5Lr"/>
+                            <constraint firstItem="EvE-CQ-qWt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="vuw-Ti-iOy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9yp-Fb-j47" secondAttribute="bottom" constant="64" id="y0q-fg-jxg"/>
+                            <constraint firstItem="qT1-sL-YsQ" firstAttribute="centerY" secondItem="jtv-gJ-3e1" secondAttribute="centerY" id="ynm-LI-68f"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Example" id="0uB-qD-V0J"/>
+                    <connections>
+                        <outlet property="bufferExam1Switch" destination="EvE-CQ-qWt" id="2Sx-Ib-ZOt"/>
+                        <outlet property="bufferExam2Switch" destination="jtv-gJ-3e1" id="Acj-1h-U2n"/>
+                        <outlet property="resetButton" destination="9yp-Fb-j47" id="g9T-dS-qXi"/>
+                        <outlet property="windowByExamSwitch" destination="6dl-WN-NpN" id="vx3-DV-Egy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-471" y="-270"/>
+            <point key="canvasLocation" x="-471.19999999999999" y="-270.31484257871068"/>
         </scene>
         <!--Table View Example-->
         <scene sceneID="zWf-Y6-Ml0">

@@ -15,6 +15,7 @@
 		DE089A261FE0D10B007BC47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE089A241FE0D10B007BC47B /* Main.storyboard */; };
 		DE089A281FE0D10B007BC47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE089A271FE0D10B007BC47B /* Assets.xcassets */; };
 		DE089A2B1FE0D10B007BC47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE089A291FE0D10B007BC47B /* LaunchScreen.storyboard */; };
+		DE11E9B61FE43C2A00F826C9 /* ViewController+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE11E9B51FE43C2A00F826C9 /* ViewController+Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DE089A271FE0D10B007BC47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE089A2A1FE0D10B007BC47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE089A2C1FE0D10B007BC47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE11E9B51FE43C2A00F826C9 /* ViewController+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Action.swift"; sourceTree = "<group>"; };
 		E95CBD88F1BC63DE4F35CEC9 /* Pods-TransformingOperator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransformingOperator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransformingOperator/Pods-TransformingOperator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 			children = (
 				DE089A201FE0D10B007BC47B /* AppDelegate.swift */,
 				DE089A221FE0D10B007BC47B /* ViewController.swift */,
+				DE11E9B51FE43C2A00F826C9 /* ViewController+Action.swift */,
 				DE089A241FE0D10B007BC47B /* Main.storyboard */,
 				DE089A271FE0D10B007BC47B /* Assets.xcassets */,
 				DE089A291FE0D10B007BC47B /* LaunchScreen.storyboard */,
@@ -235,6 +238,7 @@
 				DE089A231FE0D10B007BC47B /* ViewController.swift in Sources */,
 				3A7C5F2A1FE3A9C100CE6D9C /* ActivityController.swift in Sources */,
 				DE089A211FE0D10B007BC47B /* AppDelegate.swift in Sources */,
+				DE11E9B61FE43C2A00F826C9 /* ViewController+Action.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
