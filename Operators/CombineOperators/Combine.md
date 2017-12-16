@@ -4,7 +4,7 @@
      This chapter will show you several different ways to assemble sequences,
     and how to combine the data within each sequence.
 
-    ![create](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CreateOperators/images/create.png)
+![create](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CreateOperators/images/create.png)
 
 
 ---
@@ -220,7 +220,7 @@ next(Left: 프랑크푸르트)
 # combineLatest
     - 2개이상의 Observable을 기반으로 Observable 각각의 값이 변경(각 Observable의 마지막 값)되었을때 갱신해주는 Operator이다.
     
-    ![combineLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/combineLatest.png)
+![combineLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/combineLatest.png)
 
 ```swift
 
