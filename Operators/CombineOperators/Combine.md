@@ -38,7 +38,7 @@
 # startWith
  * 첫번째 Observable의 아이템이 emit(방출)  되기전에 두번째 Observable의 아이템을 emit한다.
 
-![startWith](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/startWith.png)
+![startWith](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/startWith.png)
 
 ```swift
 
@@ -69,7 +69,7 @@ observable.subscribe(onNext: { value in
  - 단 첫번째 Observable이 Item 이 정상적으로 완료(OnComplete Event)가 되어야 두번째 Observableㅇ의 item이 emit 된다.
 
 
-![concat](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/concat.png)
+![concat](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/concat.png)
 
 ```swift
 
@@ -101,8 +101,8 @@ completed
     - flatmap과 동작은 비슷하다.
     - Observable Stream에서 emit한 Item에 대한 Orderd 보장한다.
 
-![flatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/flatmap.png)
-![concatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/concatmap.png)
+![flatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/flatmap.png)
+![concatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/concatmap.png)
 
 ```swift
 
@@ -167,7 +167,7 @@ completed
 # merge
     - Observable에서 emit하는 item의 순서대로 하나의 observable로 만든다.
 
-![merge](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/merge.png)
+![merge](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/merge.png)
 
 
 
@@ -220,7 +220,7 @@ next(Left: 프랑크푸르트)
 # combineLatest
     - 2개이상의 Observable을 기반으로 Observable 각각의 값이 변경(각 Observable의 마지막 값)되었을때 갱신해주는 Operator이다.
     
-    ![combineLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/combineLatest.png)
+    ![combineLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/combineLatest.png)
 
 ```swift
 
@@ -258,7 +258,7 @@ next(안녕 반가워요)
     - 2개의 OBservable이 있다면 가정하면, 각각의 Observable Stream은 서로 대응되는 Pair가 되어야 zip operator 가 emit된다.
     - 한화면에서 2개의 네트워크 데이터를 연동해야한다면 zip operator를 써서 한 Observer에서 subscribe 처리한다.
 
-![zip](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/zip.png)
+![zip](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/zip.png)
 
 
 ```swift
@@ -295,7 +295,7 @@ It's sunny in 대구
  -  첫번째 Observable을 구독한 다른 Observable 중 하나가 첫번째 아이템을 emit하면  나머지 Observable의 구독을 해지사고 첫번쨰 Observable의
   Item만 구독한다.
   
-![amb](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/amb.png)
+![amb](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/amb.png)
 
 ```swift
 let s1 =  PublishSubject<String>();
@@ -327,7 +327,7 @@ s1.onNext("1-4");
 # switchLatest
 - Observable에서 발행하는 Observable을 다른 Observable로 변경하여 아이템을 emit 한다.
 
-![switchLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/CombineOperators/images/switchLatest.png)
+![switchLatest](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/switchLatest.png)
 
 
 ```swift
