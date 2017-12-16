@@ -6,7 +6,7 @@
 
 ![create](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CreateOperators/images/create.png)
 
-
+ 
 ---
 # Operators
 
@@ -102,6 +102,8 @@ completed
     - Observable Stream에서 emit한 Item에 대한 Orderd 보장한다.
 
 ![flatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/flatmap.png)
+
+
 ![concatmap](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/images/concatmap.png)
 
 ```swift
@@ -366,5 +368,56 @@ B
 
 
 ```
+
+
+=============================================================================
+ 번외편 ]
+  - Rxjava1 에서는 Observable의 통해 null를 넘기게 되면 onNext를 통해 Null로 방출합니다.
+  - RxJava2 에서는 Observable에서 Null이 생기면 무조건 onError를 통해 NullPointer Exception 를 발생시켜서,
+   null를 observable를 통해 방출시키는건 불가능합니다.
+   
+   - RxSwift 에서도 동일하게 null 를 보내니 아래와 같네요
+   
+
+  ```swift
+  
+  let observable1 = Observable.just("AA")
+      .map({ item -> String? in
+          return nil
+      })
+  
+  observable1.subscribe(onNext: { item in
+      print("OnNext ~~~~~")
+  
+      if let item = item {
+          print(item)
+      } else {
+          print("nil 이 들어오네요")
+      }
+  }, onError: { error in
+      print(error.localizedDescription)
+  }, onCompleted: {
+      print("onCompleted")
+  }, onDisposed: {
+      print("onDisposed")
+  })
+  
+  ```
+  결과
+  ```
+ 
+ --- Example of: nilTest ---
+ OnNext ~~~~~
+ nil 이 들어오네요
+ onCompleted
+ onDisposed
+
+
+  
+  ```
+
+
+
+
 
 
