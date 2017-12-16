@@ -371,6 +371,10 @@ B
 
 
 =============================================================================
+
+
+
+
  번외편 ]
   - Rxjava1 에서는 Observable의 통해 null를 넘기게 되면 onNext를 통해 Null로 방출합니다.
   - RxJava2 에서는 Observable에서 Null이 생기면 무조건 onError를 통해 NullPointer Exception 를 발생시켜서,
