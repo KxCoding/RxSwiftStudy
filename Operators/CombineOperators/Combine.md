@@ -7,7 +7,6 @@
     ![create](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CreateOperators/images/create.png)
 
 
-https://github.com/Froussios/Intro-To-RxJava/blob/master/Part%203%20-%20Taming%20the%20sequence/4.%20Combining%20sequences.md
 ---
 # Operators
 
