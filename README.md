@@ -16,8 +16,8 @@
 **https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/FilteringOperators/FilteringOperators.md**
 
 ## Transformation Operators (작성자: 정상엽, 김민희, 날짜: 2017.12.16)
-[Transforming Operator](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/TransformingOperator.md)
-[Transforming Example](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Example.md)
+* [Transforming Operator](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/TransformingOperator.md) 
+* [Transforming Example](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Example.md)
 
 ## Combine Operators (작성자: 강수영, 날짜: 2017.12.16)
 
