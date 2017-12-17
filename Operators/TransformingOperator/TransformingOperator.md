@@ -12,6 +12,7 @@
 * Map
 * FlatMap
 
+
 ## 2-1. buffer
 ![Buffer](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Images/Buffer.png)
 
@@ -109,3 +110,166 @@ subject.onNext(3)
 ```
 
 * console의 출력 결과는 [홀수] 1, [짝수] 2, [홀수] 3 이다.
+
+
+## 2-3. Scan
+![Scan](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Images/Scan.png)
+
+: 초기 데이터가 있고, 이 데이터를 시작으로 누산을 한다.
+
+1) Function Prototype
+```swift
+public func scan<A>(_ seed: A, accumulator: @escaping (A, E) throws -> A)
+-> Observable<A>
+
+// ## Parameter
+// seed : 초기 데이터
+// accumulator : 들어온 데이터와 현재까지 누산된 데이터로 연산을 하여, 새 누산 데이터로 갱신함
+//
+// ## Return
+// group으로 나누어진 Observable
+```
+
+2) Example Code
+```swift
+let disposeBag = DisposeBag()
+let subject = PublishSubject<Int>()
+subject
+    .scan(0, accumulator: { (accumulatedData, newData) -> Int in
+        return accumulatedData + newData
+    })
+    .subscribe(onNext: { (accumulatedData) in
+        print(accumulatedData)
+    }).disposed(by: disposeBag)
+
+subject.onNext(1)
+subject.onNext(2)
+subject.onNext(3)
+subject.onNext(4)
+subject.onNext(5)
+```
+
+* console의 출력 결과는 1, 3, 6, 10, 15 이다.
+
+
+## 2-4. Window
+![Window](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Images/Window.png)
+
+: Buffer와 유사하나, Window는 Subscriber에게 Observable을 보낸다.
+
+1) Function Prototype
+```swift
+public func window(timeSpan: RxTimeInterval, count: Int, scheduler: SchedulerType)
+-> Observable<Observable<E>>
+
+// ## Parameter
+// timeSpan : Timeout 값
+// count : Window 크기
+// scheduler : 스케줄러
+//
+// ## Return
+// Observable의 Observable
+```
+
+2) Example Code
+```swift
+let disposeBag = DisposeBag()
+let subject = PublishSubject<Int>()
+subject
+    .window(timeSpan: 2, count: 2, scheduler: MainScheduler.instance)
+    .subscribe(onNext: { (window) in
+        window.asObservable().subscribe(onNext: { (int) in
+            print(int)
+        }, onDisposed: {
+            print("disposed")
+        }).disposed(by: disposeBag)
+    }).disposed(by: disposeBag)
+
+subject.onNext(1)
+subject.onNext(2)
+subject.onNext(3)
+subject.onNext(4)
+subject.onNext(5)
+```
+
+* console의 출력 결과는 (1, 2, disposed), (3, 4, disposed), (5, disposed) 이다.
+(5, disposed)는 timeout이 발생하여, 5만 출력된 것이다.
+
+
+## 2-5. Map
+![Map](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Images/Map.png)
+
+: Observable에서 받은 데이터들을 다른 형태로 변환.
+
+1) Function Prototype
+```swift
+public func map<R>(_ transform: @escaping (E) throws -> R) -> Observable<R>
+
+// ## Parameter
+// transform : 데이터를 변환하는 closure
+//
+// ## Return
+// 변환된 데이터들의 Observable
+```
+
+2) Example Code
+```swift
+let disposeBag = DisposeBag()
+let subject = PublishSubject<Int>()
+subject
+    .map({ (int) -> Int in
+        return int * 2
+    })
+    .subscribe(onNext: { (int) in
+        print(int)
+    }).disposed(by: disposeBag)
+
+subject.onNext(1)
+subject.onNext(2)
+subject.onNext(3)
+subject.onNext(4)
+subject.onNext(5)
+subject.onCompleted()
+```
+
+* console의 출력 결과는 2, 4, 6, 8, 10 이다.
+
+
+## 2-5. FlatMap
+![FlatMap](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Images/FlatMap.png)
+
+: Observable에서 받은 데이터들로 다른 Observable 생성
+
+1) Function Prototype
+```swift
+public func flatMap<O: ObservableConvertibleType>(_ selector: @escaping (E) throws -> O)
+-> Observable<O.E>
+
+// ## Parameter
+// transform : 데이터를 변환하는 closure
+//
+// ## Return
+// 변환된 데이터들의 Observable
+```
+
+2) Example Code
+```swift
+let disposeBag = DisposeBag()
+let subject = PublishSubject<Int>()
+subject
+    .map({ (int) -> Int in
+        return int * 2
+    })
+    .subscribe(onNext: { (int) in
+        print(int)
+    }).disposed(by: disposeBag)
+
+subject.onNext(1)
+subject.onNext(2)
+subject.onNext(3)
+subject.onNext(4)
+subject.onNext(5)
+subject.onCompleted()
+```
+
+* console의 출력 결과는 2, 4, 6, 8, 10 이다.
