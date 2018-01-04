@@ -29,17 +29,20 @@
 nil
 
 #### <i class="icon-calendar"></i> 2017.12.30
+nil
+
+#### <i class="icon-calendar"></i> 2018.01.06
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
 | Conditional Operators     | TBD |
 | Math/Aggregate Operators       | TBD |
 | Connectable Operators | TBD |
-| TBD | 김근영 |
+| Time Based Operators | 김근영 |
 
-#### <i class="icon-calendar"></i> 2018.01.06
+#### <i class="icon-calendar"></i> 2018.01.13
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
-| Time Based Operators     | TBD |
-| Utility Operators       | TBD |
+| Utility Operators | TBD |
 | Error Handling | TBD |
+| TBD | TBD |
 | TBD | 김근영 |
