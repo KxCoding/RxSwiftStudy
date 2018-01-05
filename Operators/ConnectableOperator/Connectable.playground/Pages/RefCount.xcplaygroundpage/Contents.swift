@@ -21,9 +21,7 @@ let disposeBag: DisposeBag = DisposeBag()
 print("Starting at 0 seconds")
 let myObservable = Observable<Int>.interval(1, scheduler: MainScheduler.instance).publish().refCount()
 
-let subScribe = myObservable.subscribe { event in
-    print("1. event = \(String(describing: event))")
-}
+let subScribe = myObservable.subscribe(onNext: { print("1. event = \($0)") })
 
 delay(3.0) {
     print("Disposing at 3 seconds")
@@ -32,9 +30,8 @@ delay(3.0) {
 
 delay(6.0) {
     print("Subscribing again at 6 seconds")
-    myObservable.subscribe { event in
-        print("2. event = \(event)")
-    }.disposed(by: disposeBag)
+    myObservable.subscribe(onNext: { print("2. event = \($0)") })
+        .disposed(by: disposeBag)
 }
 
 
