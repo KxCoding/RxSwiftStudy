@@ -20,10 +20,12 @@
 * [Transforming Example](https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/TransformingOperator/Example.md)
 
 ## Combine Operators (작성자: 강수영, 날짜: 2017.12.16)
+**https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/CombineOperators/Combine.md**
 
 ## Conditional Operators (작성자: 날짜:)
 
-## Math/Aggregate Operators (작성자: 날짜:)
+## Math/Aggregate Operators (작성자: 이로운, 날짜: 2018.01.06)
+**https://github.com/KxCoding/RxSwiftStudy/blob/master/Operators/MathAndAggregateOperators/MathAndAggregateOperators.md**
 
 ## Connectable Operators (작성자: 날짜:)
 
