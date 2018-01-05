@@ -20,7 +20,7 @@
 		468309F27BFF7516E0DBB8C2 /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig"; sourceTree = "<group>"; };
 		A7266C5BE6B2C80DD035858F /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3EFA41FFD2B6C008A01F9 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectableOperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DAA4D01FEFA34500CA8517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2DAA4D21FEFA34500CA8517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2DAA4D51FEFA34500CA8517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		D2DAA4C41FEFA34500CA8517 = {
 			isa = PBXGroup;
 			children = (
-				D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */,
+				D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator */,
 				D2DAA4CE1FEFA34500CA8517 /* Products */,
 				C353D4D5D9058FD18A04583D /* Pods */,
 				B68D1ADF36646C7F8118E927 /* Frameworks */,
@@ -72,12 +72,12 @@
 		D2DAA4CE1FEFA34500CA8517 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */,
+				D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */ = {
+		D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator */ = {
 			isa = PBXGroup;
 			children = (
 				D2DAA4D01FEFA34500CA8517 /* AppDelegate.swift */,
@@ -87,15 +87,15 @@
 				D2DAA4D91FEFA34500CA8517 /* LaunchScreen.storyboard */,
 				D2DAA4DC1FEFA34500CA8517 /* Info.plist */,
 			);
-			path = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
+			path = ConnectableOperator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */ = {
+		D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */;
+			buildConfigurationList = D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator" */;
 			buildPhases = (
 				D7CFB26D5B1D2F5C0A1FDBAF /* [CP] Check Pods Manifest.lock */,
 				D2DAA4C91FEFA34500CA8517 /* Sources */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
+			name = ConnectableOperator;
 			productName = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
-			productReference = D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */;
+			productReference = D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */;
+			buildConfigurationList = D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */,
+				D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator */,
 			);
 		};
 /* End PBXProject section */
@@ -360,9 +360,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98PA92F262;
-				INFOPLIST_FILE = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ConnectableOperator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "RxStudy.ConnectableOperator-ConnectableOperator-xcodeproj-ConnectableOperatorTests-ConnectableOperator";
+				PRODUCT_BUNDLE_IDENTIFIER = RxStudy.ConnectableOperator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -376,9 +376,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98PA92F262;
-				INFOPLIST_FILE = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ConnectableOperator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "RxStudy.ConnectableOperator-ConnectableOperator-xcodeproj-ConnectableOperatorTests-ConnectableOperator";
+				PRODUCT_BUNDLE_IDENTIFIER = RxStudy.ConnectableOperator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */ = {
+		D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2DAA4DD1FEFA34500CA8517 /* Debug */,
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */ = {
+		D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2DAA4E01FEFA34500CA8517 /* Debug */,
