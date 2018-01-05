@@ -35,7 +35,7 @@ nil
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
 | Conditional Operators     | TBD |
-| Math/Aggregate Operators       | TBD |
+| Math/Aggregate Operators       | 이로운 |
 | Connectable Operators | TBD |
 | Time Based Operators | 김근영 |
 
