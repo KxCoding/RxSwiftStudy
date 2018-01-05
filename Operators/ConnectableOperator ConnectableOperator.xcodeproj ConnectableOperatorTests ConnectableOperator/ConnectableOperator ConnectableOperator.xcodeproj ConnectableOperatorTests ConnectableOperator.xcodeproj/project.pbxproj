@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D85BD6E1DF5646418B6E03B /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7266C5BE6B2C80DD035858F /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework */; };
+		D2DAA4D11FEFA34500CA8517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAA4D01FEFA34500CA8517 /* AppDelegate.swift */; };
+		D2DAA4D31FEFA34500CA8517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAA4D21FEFA34500CA8517 /* ViewController.swift */; };
+		D2DAA4D61FEFA34500CA8517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DAA4D41FEFA34500CA8517 /* Main.storyboard */; };
+		D2DAA4D81FEFA34500CA8517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DAA4D71FEFA34500CA8517 /* Assets.xcassets */; };
+		D2DAA4DB1FEFA34500CA8517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DAA4D91FEFA34500CA8517 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1546A510FD258FDF15FF885E /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.debug.xcconfig"; sourceTree = "<group>"; };
+		468309F27BFF7516E0DBB8C2 /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig"; sourceTree = "<group>"; };
+		A7266C5BE6B2C80DD035858F /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A3EFA41FFD2B6C008A01F9 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAA4D01FEFA34500CA8517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2DAA4D21FEFA34500CA8517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2DAA4D51FEFA34500CA8517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2DAA4D71FEFA34500CA8517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DAA4DA1FEFA34500CA8517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2DAA4DC1FEFA34500CA8517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DAA4CA1FEFA34500CA8517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D85BD6E1DF5646418B6E03B /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68D1ADF36646C7F8118E927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3EFA41FFD2B6C008A01F9 /* RxSwift.framework */,
+				A7266C5BE6B2C80DD035858F /* Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C353D4D5D9058FD18A04583D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1546A510FD258FDF15FF885E /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.debug.xcconfig */,
+				468309F27BFF7516E0DBB8C2 /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2DAA4C41FEFA34500CA8517 = {
+			isa = PBXGroup;
+			children = (
+				D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */,
+				D2DAA4CE1FEFA34500CA8517 /* Products */,
+				C353D4D5D9058FD18A04583D /* Pods */,
+				B68D1ADF36646C7F8118E927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DAA4CE1FEFA34500CA8517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DAA4CF1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAA4D01FEFA34500CA8517 /* AppDelegate.swift */,
+				D2DAA4D21FEFA34500CA8517 /* ViewController.swift */,
+				D2DAA4D41FEFA34500CA8517 /* Main.storyboard */,
+				D2DAA4D71FEFA34500CA8517 /* Assets.xcassets */,
+				D2DAA4D91FEFA34500CA8517 /* LaunchScreen.storyboard */,
+				D2DAA4DC1FEFA34500CA8517 /* Info.plist */,
+			);
+			path = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */;
+			buildPhases = (
+				D7CFB26D5B1D2F5C0A1FDBAF /* [CP] Check Pods Manifest.lock */,
+				D2DAA4C91FEFA34500CA8517 /* Sources */,
+				D2DAA4CA1FEFA34500CA8517 /* Frameworks */,
+				D2DAA4CB1FEFA34500CA8517 /* Resources */,
+				111DB9A02CB6A8219CA6E55C /* [CP] Embed Pods Frameworks */,
+				96F581FFB54756072766AAF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
+			productName = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator";
+			productReference = D2DAA4CD1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DAA4C51FEFA34500CA8517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "이한형";
+				TargetAttributes = {
+					D2DAA4CC1FEFA34500CA8517 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DAA4C41FEFA34500CA8517;
+			productRefGroup = D2DAA4CE1FEFA34500CA8517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DAA4CC1FEFA34500CA8517 /* ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DAA4CB1FEFA34500CA8517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAA4DB1FEFA34500CA8517 /* LaunchScreen.storyboard in Resources */,
+				D2DAA4D81FEFA34500CA8517 /* Assets.xcassets in Resources */,
+				D2DAA4D61FEFA34500CA8517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		111DB9A02CB6A8219CA6E55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F581FFB54756072766AAF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CFB26D5B1D2F5C0A1FDBAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DAA4C91FEFA34500CA8517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAA4D31FEFA34500CA8517 /* ViewController.swift in Sources */,
+				D2DAA4D11FEFA34500CA8517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2DAA4D41FEFA34500CA8517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DAA4D51FEFA34500CA8517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2DAA4D91FEFA34500CA8517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DAA4DA1FEFA34500CA8517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DAA4DD1FEFA34500CA8517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2DAA4DE1FEFA34500CA8517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DAA4E01FEFA34500CA8517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1546A510FD258FDF15FF885E /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98PA92F262;
+				INFOPLIST_FILE = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RxStudy.ConnectableOperator-ConnectableOperator-xcodeproj-ConnectableOperatorTests-ConnectableOperator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DAA4E11FEFA34500CA8517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468309F27BFF7516E0DBB8C2 /* Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98PA92F262;
+				INFOPLIST_FILE = "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RxStudy.ConnectableOperator-ConnectableOperator-xcodeproj-ConnectableOperatorTests-ConnectableOperator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DAA4C81FEFA34500CA8517 /* Build configuration list for PBXProject "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAA4DD1FEFA34500CA8517 /* Debug */,
+				D2DAA4DE1FEFA34500CA8517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DAA4DF1FEFA34500CA8517 /* Build configuration list for PBXNativeTarget "ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAA4E01FEFA34500CA8517 /* Debug */,
+				D2DAA4E11FEFA34500CA8517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DAA4C51FEFA34500CA8517 /* Project object */;
+}

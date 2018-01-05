@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Connectable'/>
+        <page name='Publish'/>
+        <page name='Connect'/>
+        <page name='RefCount'/>
+        <page name='Replay'/>
+    </pages>
+</playground>

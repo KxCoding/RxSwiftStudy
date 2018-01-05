@@ -1,0 +1,6 @@
+framework module Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator {
+  umbrella header "Pods-ConnectableOperator ConnectableOperator.xcodeproj ConnectableOperatorTests ConnectableOperator-umbrella.h"
+
+  export *
+  module * { export * }
+}

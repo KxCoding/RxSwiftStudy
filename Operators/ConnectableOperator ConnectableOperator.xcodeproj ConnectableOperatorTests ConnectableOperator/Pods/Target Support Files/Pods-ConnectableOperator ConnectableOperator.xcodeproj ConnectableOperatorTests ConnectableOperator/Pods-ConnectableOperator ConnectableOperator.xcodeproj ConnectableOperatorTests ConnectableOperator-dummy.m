@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator : NSObject
+@end
+@implementation PodsDummy_Pods_ConnectableOperator_ConnectableOperator_xcodeproj_ConnectableOperatorTests_ConnectableOperator
+@end
