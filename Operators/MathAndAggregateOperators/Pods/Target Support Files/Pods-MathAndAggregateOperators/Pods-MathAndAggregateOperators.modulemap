@@ -1,0 +1,6 @@
+framework module Pods_MathAndAggregateOperators {
+  umbrella header "Pods-MathAndAggregateOperators-umbrella.h"
+
+  export *
+  module * { export * }
+}
