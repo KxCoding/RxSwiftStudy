@@ -42,6 +42,6 @@ nil
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
 | Connectable Operators | 곽유신 |
-| Schedulers | 박준우 |
+| Schedulers | TBD |
 | RxCocoa Overview | 송회문 |
-| Traits | TBD |
+| Traits | 박준우 |
