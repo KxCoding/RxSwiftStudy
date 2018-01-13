@@ -34,14 +34,14 @@ nil
 #### <i class="icon-calendar"></i> 2018.01.06
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
-| Conditional Operators     | 이한형 |
+| Connectable Operators     | 이한형 |
 | Math/Aggregate Operators       | 이로운 |
 | Utility Operators, Error Operators | 김근영 |
 
 #### <i class="icon-calendar"></i> 2018.01.13
 | Subject                        | Leader              |
 | ---------------------------- | ------------------
-| Connectable Operators | 곽유신 |
-| Schedulers | TBD |
-| RxCocoa Overview | TBD |
-| Traits | TBD |
+| Conditional Operators | 김근영 |
+| Schedulers | 김근영 |
+| RxCocoa Overview | 송회문 |
+| Traits | 박준우 |
