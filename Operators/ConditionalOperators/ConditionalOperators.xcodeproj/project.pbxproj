@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8BB92220083B8500A74873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BB92120083B8500A74873 /* AppDelegate.swift */; };
+		AA8BB92420083B8500A74873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BB92320083B8500A74873 /* ViewController.swift */; };
+		AA8BB92720083B8500A74873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8BB92520083B8500A74873 /* Main.storyboard */; };
+		AA8BB92920083B8500A74873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8BB92820083B8500A74873 /* Assets.xcassets */; };
+		AA8BB92C20083B8500A74873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8BB92A20083B8500A74873 /* LaunchScreen.storyboard */; };
+		F8BF66D9D308F6B1FD7C16AF /* Pods_ConditionalOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A11A47C84052D09156C6FB /* Pods_ConditionalOperators.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B62005034FD6EC9BCCAB20B /* Pods-ConditionalOperators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConditionalOperators.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConditionalOperators/Pods-ConditionalOperators.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8BB91E20083B8500A74873 /* ConditionalOperators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConditionalOperators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8BB92120083B8500A74873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8BB92320083B8500A74873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8BB92620083B8500A74873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8BB92820083B8500A74873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8BB92B20083B8500A74873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8BB92D20083B8500A74873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8BB93320083DE400A74873 /* ConditionalOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConditionalOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E3DC6CB4A98B5C8965ADFEB3 /* Pods-ConditionalOperators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConditionalOperators.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConditionalOperators/Pods-ConditionalOperators.release.xcconfig"; sourceTree = "<group>"; };
+		E6A11A47C84052D09156C6FB /* Pods_ConditionalOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConditionalOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8BB91B20083B8500A74873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF66D9D308F6B1FD7C16AF /* Pods_ConditionalOperators.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5722E93F3FC00583E0619A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A11A47C84052D09156C6FB /* Pods_ConditionalOperators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8BB91520083B8500A74873 = {
+			isa = PBXGroup;
+			children = (
+				AA8BB93320083DE400A74873 /* ConditionalOperators.playground */,
+				AA8BB92020083B8500A74873 /* ConditionalOperators */,
+				AA8BB91F20083B8500A74873 /* Products */,
+				AE26DF2823139E2C027C6962 /* Pods */,
+				5722E93F3FC00583E0619A76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8BB91F20083B8500A74873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8BB91E20083B8500A74873 /* ConditionalOperators.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8BB92020083B8500A74873 /* ConditionalOperators */ = {
+			isa = PBXGroup;
+			children = (
+				AA8BB92120083B8500A74873 /* AppDelegate.swift */,
+				AA8BB92320083B8500A74873 /* ViewController.swift */,
+				AA8BB92520083B8500A74873 /* Main.storyboard */,
+				AA8BB92820083B8500A74873 /* Assets.xcassets */,
+				AA8BB92A20083B8500A74873 /* LaunchScreen.storyboard */,
+				AA8BB92D20083B8500A74873 /* Info.plist */,
+			);
+			path = ConditionalOperators;
+			sourceTree = "<group>";
+		};
+		AE26DF2823139E2C027C6962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B62005034FD6EC9BCCAB20B /* Pods-ConditionalOperators.debug.xcconfig */,
+				E3DC6CB4A98B5C8965ADFEB3 /* Pods-ConditionalOperators.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8BB91D20083B8500A74873 /* ConditionalOperators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8BB93020083B8500A74873 /* Build configuration list for PBXNativeTarget "ConditionalOperators" */;
+			buildPhases = (
+				64632D2FDA7A679FC5B70DC8 /* [CP] Check Pods Manifest.lock */,
+				AA8BB91A20083B8500A74873 /* Sources */,
+				AA8BB91B20083B8500A74873 /* Frameworks */,
+				AA8BB91C20083B8500A74873 /* Resources */,
+				8AEB324F8B70043CFE15426A /* [CP] Embed Pods Frameworks */,
+				CE056F7DD105991BD9A7E0B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConditionalOperators;
+			productName = ConditionalOperators;
+			productReference = AA8BB91E20083B8500A74873 /* ConditionalOperators.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8BB91620083B8500A74873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = KxCoding;
+				TargetAttributes = {
+					AA8BB91D20083B8500A74873 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AA8BB91920083B8500A74873 /* Build configuration list for PBXProject "ConditionalOperators" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8BB91520083B8500A74873;
+			productRefGroup = AA8BB91F20083B8500A74873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8BB91D20083B8500A74873 /* ConditionalOperators */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8BB91C20083B8500A74873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8BB92C20083B8500A74873 /* LaunchScreen.storyboard in Resources */,
+				AA8BB92920083B8500A74873 /* Assets.xcassets in Resources */,
+				AA8BB92720083B8500A74873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64632D2FDA7A679FC5B70DC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConditionalOperators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEB324F8B70043CFE15426A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ConditionalOperators/Pods-ConditionalOperators-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConditionalOperators/Pods-ConditionalOperators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE056F7DD105991BD9A7E0B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConditionalOperators/Pods-ConditionalOperators-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8BB91A20083B8500A74873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8BB92420083B8500A74873 /* ViewController.swift in Sources */,
+				AA8BB92220083B8500A74873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8BB92520083B8500A74873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8BB92620083B8500A74873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8BB92A20083B8500A74873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8BB92B20083B8500A74873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8BB92E20083B8500A74873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8BB92F20083B8500A74873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8BB93120083B8500A74873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B62005034FD6EC9BCCAB20B /* Pods-ConditionalOperators.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ConditionalOperators/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kxcoding.ConditionalOperators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8BB93220083B8500A74873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DC6CB4A98B5C8965ADFEB3 /* Pods-ConditionalOperators.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ConditionalOperators/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kxcoding.ConditionalOperators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8BB91920083B8500A74873 /* Build configuration list for PBXProject "ConditionalOperators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8BB92E20083B8500A74873 /* Debug */,
+				AA8BB92F20083B8500A74873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8BB93020083B8500A74873 /* Build configuration list for PBXNativeTarget "ConditionalOperators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8BB93120083B8500A74873 /* Debug */,
+				AA8BB93220083B8500A74873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8BB91620083B8500A74873 /* Project object */;
+}
