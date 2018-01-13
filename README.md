@@ -35,5 +35,8 @@
 
 ## Error Handling (작성자: 날짜:)
 
+## Traits (작성자: 박준우, 날짜: 2018.01.13)
+[traits](https://gist.github.com/torpedo87/314322c80d3c8d1db955b5e664c7cded)
+
 ## RxCocoa overview (작성자: 송회문, 날짜: 2018.01.13)
 [handout](https://gist.github.com/hoemoon/74c45cc706ecfedb4a19651cba3ee18b), [project](https://github.com/hoemoon/Parts)
